@@ -13,7 +13,7 @@ class DB
     public function __construct() {
 		
 		$ini_array = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . "/api/config/db.conf");
-		$this->server=$ini_array['host'];
+		$this->host=$ini_array['host'];
 		$this->user=$ini_array['user'];
 		$this->pass=$ini_array['pass'];
 		$this->db=$ini_array['db'];
