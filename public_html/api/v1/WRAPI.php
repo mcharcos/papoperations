@@ -1,9 +1,9 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/API.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/APIKey.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/include/category.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/include/books.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/API.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/APIKey.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/category.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/books.class.php';
 class WRAPI extends API
 {
     protected $User;
