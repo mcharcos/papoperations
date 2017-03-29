@@ -2,8 +2,8 @@
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/API.class.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/APIKey.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/category.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/books.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/Category.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/api/lib/Books.class.php';
 class WRAPI extends API
 {
     protected $User;
