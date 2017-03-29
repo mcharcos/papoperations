@@ -1,0 +1,16 @@
+.range-outer{background:#fff;position:relative;border:1px solid #eaeaea;height:20px;padding:3px;}
+.input-wrapper output{color:a1a0a0;font-size:12px;font-weight:400;text-align:center;}
+.rangeslider,
+.rangeslider__fill {display:block;}
+.rangeslider {background:url(../img/grey-bg.jpg) repeat 0 0;position:relative;border:0;}
+.rangeslider--horizontal {height:12px;width:100%;}
+.rangeslider--vertical {width:20px;min-height:150px;max-height:100%;}
+.rangeslider--disabled {filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);opacity:0.4;}
+.rangeslider__fill {background:url(../img/bg-green.jpg) repeat 0 0;position:absolute;}
+.rangeslider--horizontal .rangeslider__fill {top:0;height:100%;}
+.rangeslider--vertical .rangeslider__fill {bottom:0;width:100%;}
+.rangeslider__handle {cursor:pointer;display:inline-block;width:27px;height:26px;position:absolute;}
+.rangeslider__handle:after {content:"";display:block;width:28px;height:28px;margin:auto;position:absolute;top:0;right:0;bottom:0;left:0;background:url(../img/ranger-picker.png) no-repeat 0 0;}
+.rangeslider__handle:active, .rangeslider--active .rangeslider__handle {}
+.rangeslider--horizontal .rangeslider__handle {top:-6px;touch-action:pan-y;-ms-touch-action:pan-y;}
+.rangeslider--vertical .rangeslider__handle {left:-10px;touch-action:pan-x;-ms-touch-action:pan-x;}

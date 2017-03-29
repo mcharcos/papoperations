@@ -1,0 +1,139 @@
+/* This csss is used by developer. Developer will put css here*/
+
+.alert p {margin:0}
+#myregisterform .model-form-div > label, #myform .model-form-div > label{width: 33%;}
+#myregisterform .model-form-div > input[type="password"], #myregisterform .model-form-div > input[type="text"], #myform .model-form-div > input[type="password"],
+#myform .model-form-div > input[type="text"]{width: 67% !important;}
+label.error{display: inline-block;line-height: 20px !important;width: 70% !important;float: right !important;text-align: left !important;letter-spacing: normal !important;color: red;}
+.model-form-btn {padding: 0 0 0 33% !important;}
+
+#myregisterform label.error, #myform label.error{margin-bottom: -15px !important;}
+.model-form-btn #okay_submit {background: #333;border: 0;color: #fff;float: left;font-size: 13px;font-weight: 400;letter-spacing: 0.06em;line-height: 18px;padding: 9px 15px 8px;
+                              text-transform: uppercase;font-weight: 400;font-family: 'Poppins';}
+.model-form-btn #okay_submit:hover {background: #579a43;}
+.alert-dismissable, .alert-dismissible {padding-right: 0 !important;}
+.alert-dismissable .close, .alert-dismissible .close {top: -13px !important;right: 2px !important;}
+.user-dropdown.dropdown > a {line-height: 49px !important;}
+
+.leftpanel-link > li > h6 {vertical-align: top;font-size: 12px;color: #a1a0a0;font-weight: 400;font-family: 'Roboto';text-decoration: none;float: left;margin-left: 5px;margin-bottom: 0px !important;margin-top: 0 !important;}
+.user-dropdown {display: block !important;}
+.filter-body-box-ftr .rating_star img{padding: 1px;}
+
+.food-search-wrapper{position:relative;padding:0 60px 0 0}
+.food-search-wrapper a#go_button,.food-search-wrapper a#view_btn, .food-search-wrapper a#add_btn {width:50px;height:40px;background: #579a43;text-transform: uppercase;color: #fff;font-weight: 700;font-size: 13px;line-height:38px;
+                                  font-family: 'Roboto';text-align: center;padding: 0;display: block;border: 2px solid #579a43;text-shadow: none;text-decoration:none;
+                                  position:absolute;top:0;right:0;margin:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.food-search-wrapper a#view_btn, .food-search-wrapper a#add_btn{margin-top: 24px;}
+.review-read-ul-ftr .review_span{float: right;line-height: 24px;}
+#edit_bio{float: right;}
+.sustainable-cats{font-size: 15px !important;}
+/*.editprofile-page form{padding: 20px;}*/
+#update-tab-basic-info-section, #update-tab-password-section, #update-tab-profile-picture-section{margin-top: 30px;}
+.editprofile-page .model-form-div label{display:block;padding:0 0 5px;text-align:left;width: 100%!important;}
+
+
+.food-register-form #pwd_contract_icon{float: right;}
+.textarea-wrapper label {padding: 0 0 5px;margin: 0;font-size: 14px;font-weight: 400;text-decoration: none;color: #666;}
+.add_btn_page{border: 2px solid #579a43;color: #579a43;float: right;margin-top: 10px;padding: 5px 10px;background: transparent;}
+.add_btn_page:hover{background: #579a43;color: #fff;}
+
+.cat_records_page {border: none;}
+.profile_update_form_2 {padding: 30px;border: 1px solid #ddd;  position: relative;  border-radius: 10px;}
+.cat_records_page .modal-head-div {border-radius: 0;margin: -30px -30px -30px -30px;background-color:#579a43;padding: 10px 10px 0;}
+.modal-head-div .modal-tabs {display: block;}
+.modal-head-div .modal-tabs a.active, .modal-head-div .modal-tabs a:hover {background: #fff;color: #579a43;}
+.modal-head-div .modal-tabs a {color: #fff;font-size: 14px;padding: 12px 14px 10px;line-height: 20px;text-transform: uppercase;display: inline-block;vertical-align: top;
+                               letter-spacing: 0.05em;border-radius: 8px 8px 0 0;font-weight: bold;}
+.profile_update_form_2 .modal-title {color: #fff;margin: 0 0 10px;padding: 0;border-radius: 0;}
+
+/* For Charts */
+#cat_food_stats_main span, #cat_activity_stats_main span{width: 250px !important;height: 250px !important;}
+#cat_food_stats span, #cat_activity_stats span{width: 250px !important;height: 250px !important;}
+
+
+/* For stars css */
+.rating_main{display: inline-block;vertical-align: middle;margin-left: 10px;}
+.rate-ex1-cnt .rate-btn {width: 45px;height: 40px;float: left;background: url(/resources/images/star-empty.png) no-repeat;cursor: pointer;}
+.rate-ex1-cnt {width: 232px;height: 40px;}
+.rate-ex1-cnt .rate-btn:hover, .rate-ex1-cnt .rate-btn-hover, .rate-ex1-cnt .rate-btn-active {
+    background: url(/resources/images/star.png) no-repeat;
+}
+
+/* End first Example with big stars */
+
+
+
+.food-review-title{display:inline-block;}
+.food-review-item{background: #fff;padding: 10px;border: 1px solid #ddd;}
+.food-register-head h2{padding-top: 10px;}
+/*.brand_view #brand_results, .brand_view #product_results, .brand_view #store_results{display: block;background: #fff;border: 1px solid #ddd;border-top: none;font-size: 12px;font-weight: 500;}
+.brand_view #brand_results .item, .brand_view #product_results .item, .brand_view #store_results .item{padding: 3px 10px;color:#2e2e2e;} 
+.brand_view #brand_results .item:hover, .brand_view #product_results .item:hover, .brand_view #store_results .item:hover{background:#579a43;color: #fff;}*/
+.product-search-class{padding: 20px !important;}
+.filter_list_area .filter_button {background: transparent;padding: 6px 0px;border: none;text-transform: uppercase;color: #579a43;font-size: 14px;width: 226px;font-weight: 400;line-height: 14px;vertical-align: middle;border: 2px solid #579a43;line-height: 21px;}
+.filter_list_area .filter_button:hover{background: #579a43;color:#fff;}
+.filter_list_area img{width: 40px !important;padding-right: 10px;float: right;padding-left: 10px;}
+.single-column{margin:40px 0 0;}
+h2.comman-title {margin: 0 0 18px;padding: 0;font-size: 18px;color: #579a43;font-weight: 500;display: block;position: relative;}
+.single-column .food-register-box{min-height:500px;margin:0 0 30px;}
+.user-dropdown {margin:0 0 0 15px;}
+.auto-complated{background:#fff;border:1px solid #eaeaea;padding:0;}
+.auto-complated .item{padding:10px;font-size:13px;}
+.auto-complated .item:hover{background:#f5f5f5; }
+.comment-replay h5 > a{ font-size: 13px;color: #666;font-family: 'Roboto';display: inline-block;vertical-align: top;line-height:20px;text-decoration:none;width:auto;margin:0;}
+.blog-page-box-img a img {width: 100%;height: 210px;}
+.latest-blog{display:block;}
+.latest-blog-img{display:inline-block;vertical-align:top;padding:0 20px 0 0; }
+.latest-blog-img a{display:block;text-align:center;overflow:hidden;width:300px;height:200px;}
+.latest-blog-img a img{min-width:300px;max-width:100%;display:block;}
+.latest-blog-body{display:inline-block;vertical-align:top;width:calc(100% - 325px);}
+.latest-blog-body h4{margin:0 0 2px;padding:0;line-height:100%;font-size:100%;}
+.latest-blog-body h4 a:hover{color: #579a43;}
+.latest-blog-body h4 a{color:#444545;font-size:22px;line-height:28px;text-decoration:none;display: block;margin:0;}
+.latest-blog-body small.datetime-css {margin:0 0 15px;padding: 0;font-size:12px;line-height: 16px;color: #999;font-family: 'Roboto';font-weight: 400;display: block;}
+.latest-blog-body p {font-size: 15px;color: #666;line-height: 24px;font-family: 'Roboto';margin: 0 0 15px;}
+.blog-title:afte{clear:both;display:block;clear:both;}
+.blog-title{background:#fff;padding:7px 8px 5px 15px;display:inline-block;vertical-align:top;width:100%;margin:30px 0;box-shadow:0 0 3px 0 rgba(0,0,0,.1);position:relative; }
+.blog-title h1{margin:0;padding:8px 0;font-size:20px;line-height:100%;float:left; color:#579a43;  }
+.blog-title a{float:right;color:#444545;text-decoration:none;background:#f3f3f3;padding:10px 16px 6px;text-transform:uppercase;font-size:13px;}
+.blog-title a:hover{background:#579a43;color:#fff;}
+.blog-title:after {content: '';position: absolute;bottom: -15px;left: 15px;width: 0;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-top: 15px solid #fff;}
+.blog-title:before{content: '';position: absolute;bottom: -16px;left: 15px;width: 0;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-top: 15px solid #eaeaea;}
+
+/* content pages */ 
+.contact_us_details{font-size: 18px;line-height: 30px;}
+.food-register-form  h1{color:#579a43;margin-bottom: 30px}
+div#contact_us_intro , div#contact_us_title {margin-bottom: 10px;}
+div#contact_us_description{font-size: 14px;line-height: initial;}
+.p40{padding: 40px;}
+.minheight-i{min-height: inherit !important;}
+.terms-conditions ul{padding-left: 40px;}
+.embarrassing_cls article{font-size: 16px;}
+
+.loader_div{position: fixed;left: 0;right: 0;bottom: 0;top: 0;background: rgba(0,0,0, 0.23);z-index: 999;display:none;}
+.loader_div img{position: fixed; top: 50%;left: 50%;height: 180px;width: 180px;margin-top: -90px; margin-left: -90px;}
+
+.btm-btn-div .post_commnet_anchor {border: 2px solid #444545;color: #444545;}
+.blog-comment-head .post_commnet_anchor {margin: 0;padding: 8px 25px 6px;}
+.btm-btn-div .post_commnet_anchor {padding: 6px 25px 4px;text-decoration: none;font-size: 14px;text-transform: uppercase;margin: 0 10px;display: inline-block;vertical-align: top;background: transparent;
+}
+
+#load_more{padding:6px 25px 4px;text-decoration:none;font-size:14px;text-transform:uppercase;margin:10px 0;display:inline-block;vertical-align:top;background:transparent; float:right;    border: 2px solid #579a43;
+    color: #579a43;}
+#load_more:hover {background: #579a43;color: #fff;}
+.account-tabs .nav-tabs li .hover_img{display: none;}
+.account-tabs .nav-tabs li:hover .tab_img_hover , .account-tabs .nav-tabs li:hover .tab_img_selected{display: none;}
+.account-tabs .nav-tabs li:hover .hover_img{display: block;}
+
+.blog-post-box h6.lost_date {color: #a94442;}
+.blog-post-box h4 a.announcement_title{color: #579a43;}
+.blog-post-box table.table.announcement_table {background: #fff;margin: 20px 0px;}
+.blog-post-box.announcement-box:hover {background: rgba(234,234,234,.5);}
+.blog-post-box .title-group {width: 65%;float: left;}
+.announcement-btn-grp{float: left;width: 35%;text-align: right;}
+.blog-post-box .announcement-btn-grp .black-btn , .blog-post-box .announcement-btn-grp .green-btn{font-size: 13px;font-family: 'Roboto';text-transform: uppercase;padding: 3px 5px;
+                  width: 30%;display: inline-block;vertical-align: top;text-decoration: none;border: 2px solid #444545;color: #444545;text-align: center;}
+.blog-post-box .announcement-btn-grp .green-btn{border: 2px solid #579a43;color: #579a43;}
+/*.blog-post-ul li:nth-child(2n+2) .blog-post-box.announcement-box{background:rgba(234,234,234,.2);}*/
+.account-tabs .tab-content {padding:0;}
+#view-modal-cat-form textarea#description {padding: 10px;line-height: 18px;border: 0;background: #ebe9e9;float: left;width: 70%;font-family: 'Roboto';font-size: 14px;}

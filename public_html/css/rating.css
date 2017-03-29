@@ -1,0 +1,7 @@
+.rating {display: none;font-size:14px;color:#579a43;white-space:nowrap;}
+.rating .star {display: inline-block;position: relative;letter-spacing: 0.05em;}
+.rating .star::before {display: inline-block;color:#579a43;content: '\f006';font-family:'FontAwesome';vertical-align:middle;font-size:14px;margin:0 5px 0 0;}
+.rating .star::after {display: inline-block;vertical-align:middle;position:absolute;content: '\f005';font-family:'FontAwesome';font-size:14px;top:0;left:0;opacity: 0;transition: all 0.1s linear;overflow: hidden;margin:0 5px 0 0;}
+.rating:not([disabled]) .star:hover::after,
+.rating .star.active::after {opacity: 1;}
+.rating .star.active.half::after {}
