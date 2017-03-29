@@ -42,7 +42,7 @@ class WRAPI extends API
                     $result = $category->get_books($this->args);
                     break;
                 default:
-                    return "Action ".$this->verb." for category does not exist. Go to /api for more information about available APIs";
+                    return "Action ".$this->verb." for category does not exist. Available actions are list, details or books.";
                     break;
             }
             return json_encode($result);
