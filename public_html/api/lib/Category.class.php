@@ -15,6 +15,10 @@ class CATEGORY
 		
 		$conn = $db->connect_db();
         $result = pg_query($conn, "select * from category where 1"); // should return only a given number of parameters not all
+	    if (!$result) {
+		error_log( "An error occurred while retrieving category list.\n");
+		exit;
+	      }
 		return pg_fetch_all($result);
 	}
 	
@@ -26,6 +30,10 @@ class CATEGORY
 		
 		$conn = $db->connect_db();
         $result = pg_query($conn, "select * from category where category_id=".$category_id);
+	    if (!$result) {
+		error_log( "An error occurred while retrieving category details.\n");
+		exit;
+	      }
 		return pg_fetch_all($result);
 	}
 	
@@ -38,6 +46,10 @@ class CATEGORY
 		$conn = $db->connect_db();
         $result = pg_query($conn, "select * from category_books where category_id=".$category_id);
 		
+	    if (!$result) {
+		error_log( "An error occurred while retrieving category books.\n");
+		return null;
+	      }
 		// For each row of the results, retrieve the book info
 		while($row = do_mysql_fetch_assoc($result)){
 			$result_book = pg_query($conn, "select * from book where category_id=".$row['id']);

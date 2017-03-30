@@ -15,6 +15,11 @@ class BOOKS
 		
 		$conn = $db->connect_db();
         $result = pg_query($conn, "select * from book where book_id=".$book_id);
+	
+	    if (!$result) {
+		echo "An error occurred while retrieving book details.\n";
+		exit;
+	      }
 		return pg_fetch_all($result);
 	}
 }
